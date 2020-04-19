@@ -942,7 +942,7 @@ xclip
 }
 
 .get_btn{
-	background: #00ff75;
+	background: #26de69;
 	color: #333333;
 	padding: 14px 20px;
 	border-radius: 100px;
@@ -1010,7 +1010,7 @@ xclip
     left: 0;
     right: 0;
     bottom: 0;
-    background: #2098D1;
+    background: #8531379e;
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 100%;
@@ -2112,7 +2112,7 @@ body {
 .pricingTable .pricingTable-signup{
     display: inline-block;
     padding: 8px 50px;
-    background: #00ff75;
+    background: #66c314;
     border-radius: 100px;
     font-size: 20px;
     font-weight: 600;
