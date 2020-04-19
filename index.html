@@ -13,8 +13,8 @@
     gtag('config', 'AW-652780195');
   </script>
   <!-- Event snippet for FF_InfluencerAcademy conversion page -->
-	
-	
+
+
 <!-- Event snippet for FF_InfluencerAcademy conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
@@ -31,6 +31,16 @@ function gtag_report_conversion(url) {
   });
   return false;
 }
+</script>
+
+<!-- Event snippet for visitantes remarketing page -->
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-652780195/UQdXCI252s0BEKPForcC',
+      'value': 1.0,
+      'currency': 'BRL',
+      'aw_remarketing_only': true
+  });
 </script>
 
 
