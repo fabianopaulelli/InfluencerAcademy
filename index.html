@@ -15,24 +15,6 @@
   <!-- Event snippet for FF_InfluencerAcademy conversion page -->
 
 
-<!-- Event snippet for FF_InfluencerAcademy conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-652780195/SdpgCJax58wBEKPForcC',
-      'transaction_id': '',
-      'event_callback': callback
-  });
-  return false;
-}
-</script>
-
 <!-- Event snippet for visitantes remarketing page -->
 <script>
   gtag('event', 'conversion', {
@@ -82,7 +64,43 @@ function gtag_report_conversion(url) {
     <![endif]-->
 
 </head>
-<body id="page-top" class="politics_version">
+<body id="page-top" class="politics_version" oncontextmenu="return false;" oncopy="return false" oncut="return false" onpaste="return false">
+
+  <script language="JavaScript">
+
+  window.onload = function() {
+    document.addEventListener("contextmenu", function(e){
+      e.preventDefault();
+    }, false);
+    document.addEventListener("keydown", function(e) {
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+        disabledEvent(e);
+      }
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+        disabledEvent(e);
+      }
+      if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+        disabledEvent(e);
+      }
+      if (e.ctrlKey && e.keyCode == 85) {
+        disabledEvent(e);
+      }
+
+      if (event.keyCode == 123) {
+        disabledEvent(e);
+      }
+    }, false);
+    function disabledEvent(e){
+      if (e.stopPropagation){
+        e.stopPropagation();
+      } else if (window.event){
+        window.event.cancelBubble = true;
+      }
+      e.preventDefault();
+      return false;
+    }
+  };
+</script>
 
     <!-- LOADER -->
     <div id="preloader">
@@ -125,7 +143,7 @@ function gtag_report_conversion(url) {
             </li>
 
 			<li class="nav-item">
-              <a onclick="return gtag_report_conversion('./redirect/redir.html')" href="./redirect/redir.html" class="nav-link js-scroll-trigger">Site Oficial</a>
+              <a href="./checkout/" class="nav-link js-scroll-trigger">Site Oficial</a>
             </li>
 			<li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#pricing">Comprar Agora</a>
@@ -271,7 +289,7 @@ function gtag_report_conversion(url) {
                             <mark>Dei treinamento</mark> para centenas de mulheres sobre o mercado de influência digital, dezenas de <mark>consultorias e muitas entrevistas</mark> ao longo do ano.</p>
                           </blockquote>
                         </section>
-                            <a class="get_btn hvr-bounce-to-topbuy" onclick="return gtag_report_conversion('./redirect/redir.html')" href="./redirect/redir.html">Matricule-se Agora!</a>
+                            <a class="get_btn hvr-bounce-to-topbuy" href="./checkout/">Matricule-se Agora!</a>
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 
@@ -325,7 +343,7 @@ function gtag_report_conversion(url) {
             </div><!-- end title -->
 		</div>
 	</div>
-  <a class="button" href="./redirect/redir.html">Preço de Parceria!</a>
+  <a class="button" href="./checkout">Preço de Parceria!</a>
 
 	<div id="blog" class="section lb">
 		<div class="container">
@@ -413,7 +431,7 @@ function gtag_report_conversion(url) {
                                 <li><b>Boleto</b> R$557,00 à Vista </li>
                                 <li><b>Cartão de Crédito</b> Em Até 12x</li>
                             </ul>
-                            <a onclick="return gtag_report_conversion('./redirect/redir.html')" href="./redirect/redir.html" class="sim-btn hvr-bounce-to-top pricingTable-signup">Matricular</a>
+                            <a href="./checkout/" class="sim-btn hvr-bounce-to-top pricingTable-signup">Matricular</a>
                         </div>
                     </div>
                 </div>
@@ -493,7 +511,7 @@ function gtag_report_conversion(url) {
                 <div class="footer-center">
                     <p class="footer-links">
                         <a href="#home">Home</a>
-                        <a href="./redirect/redir.html">Site Oficial</a>
+                        <a href="./checkout/">Site Oficial</a>
                         <a href="#pricing">Comprar</a>
                         <a href="#aboutCurso">Sobre</a>
                     </p>
