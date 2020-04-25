@@ -213,10 +213,11 @@ mark{
 -------------------------------------------------------------------*/
 
 body {
-    color: #999999;
+    color: transparent;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     line-height: 1.80857;
+    text-align: center;
 }
 
 html, body{
@@ -497,7 +498,7 @@ a img.aligncenter {
 -------------------------------------------------------------------*/
 
 .navbar-dark{
-	background-color: transparent;
+	background-color: #e6d3d335;
 	transition: all 0.3s ease 0s;
 }
 
@@ -771,6 +772,7 @@ xclip
     font-size: 18px;
     line-height: 23px;
     margin: 0;
+    text-align: center;
 }
 
 .section-title h3 {
@@ -876,7 +878,7 @@ xclip
 
 .services-inner-box{
 	padding: 15px;
-	background: #ffffff;
+	background: #fff;
 	margin-bottom: 30px;
 	border-radius: 50px 50px 0px 50px;
 	position: relative;
@@ -904,6 +906,7 @@ xclip
 	font-size: 14px;
 	position: relative;
 	z-index: 1;
+  text-align-last: center;
 }
 
 .services-inner-box::after{
@@ -942,7 +945,7 @@ xclip
 }
 
 .get_btn{
-	background: #26de69;
+	background: #00ff75;
 	color: #333333;
 	padding: 14px 20px;
 	border-radius: 100px;
@@ -1022,6 +1025,7 @@ xclip
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
+
 
 .hvr-bounce-to-topbuy::before {
     content: "";
@@ -1947,16 +1951,6 @@ hr.invis1 {
 
 
 
-
-
-
-
-
-
-body {
-  background: #f2f3f5;
-  text-align:center;
-}
 .button {
   background-color: #004A7F;
   -webkit-border-radius: 10px;
@@ -1974,7 +1968,10 @@ body {
   -moz-animation: glowing 1500ms infinite;
   -o-animation: glowing 1500ms infinite;
   animation: glowing 1500ms infinite;
+
 }
+
+
 @-webkit-keyframes glowing {
   0% { background-color: #0fb200; -webkit-box-shadow: 0 0 3px #0fb200; }
   50% { background-color: #00ff1e; -webkit-box-shadow: 0 0 40px #00ff1e; }
@@ -2075,7 +2072,7 @@ body {
 
 
 .pricingTable{
-    background: #fff;
+    background: #8531370f;
     border-radius: 10px;
     text-align: center;
     overflow: hidden;
@@ -2664,6 +2661,7 @@ select.mobile-device {
     margin: 0 0 10px;
     text-transform: uppercase;
     padding: 0;
+    text-align: center;
 }
 
 .footer-distributed .footer-links a {
@@ -2671,6 +2669,7 @@ select.mobile-device {
     line-height: 1.8;
     margin: 0 10px 0 10px;
     text-decoration: none;
+        text-align: center;
 }
 
 .footer-distributed .footer-company-name {
@@ -2678,6 +2677,7 @@ select.mobile-device {
     margin: 0 10px;
     color: #666;
     padding: 0;
+    text-align: center;
 }
 
 

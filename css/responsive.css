@@ -1,3 +1,4 @@
+
 /******************************************
     Version: 1.0
 /****************************************** */
@@ -5,7 +6,7 @@
 @media only screen and (min-width: 992px) and (max-width: 1199px) {}
 @media (min-width: 768px) and (max-width: 991px) {
 	#mainNav {
-		background-color: transparent;
+		background-color: ##5a100e;
 	}
 	.navbar-dark .navbar-brand{
 		width: 55%;
@@ -73,7 +74,7 @@
 }
 @media (max-width: 767px) {
 	#mainNav {
-		background-color: transparent;
+		background-color: #5a100e;
 	}
 	.navbar-dark .navbar-brand{
 		width: 55%;
@@ -129,7 +130,7 @@
 }
 @media only screen and (min-width: 280px) and (max-width: 599px) {
 	#mainNav {
-		background-color: transparent;
+		background-color: #5a100e;
 	}
 	.navbar-dark .navbar-brand{
 		width: 55%;
