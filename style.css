@@ -945,8 +945,8 @@ xclip
 }
 
 .get_btn{
-	background: #00ff75;
-	color: #333333;
+	background: #ff0000;
+	color: #ffffff;
 	padding: 14px 20px;
 	border-radius: 100px;
 	overflow: hidden;
@@ -1013,7 +1013,7 @@ xclip
     left: 0;
     right: 0;
     bottom: 0;
-    background: #8531379e;
+    background: #00b6ffe8;
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 100%;
@@ -1035,7 +1035,7 @@ xclip
     left: 0;
     right: 0;
     bottom: 0;
-    background: #52de97;
+    background: #5fa93b;
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 100%;
